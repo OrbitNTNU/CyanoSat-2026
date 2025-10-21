@@ -20,4 +20,4 @@ int myFunction(int x, int y) {
   return x + y;
 }
 
-// Hei, fra Erik
+//Test for om jeg forstår GitHub
