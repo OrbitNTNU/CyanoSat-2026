@@ -12,7 +12,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   Serial.println("test");
-  delay(2000);
+  delay(3000);
 }
 
 // put function definitions here:
