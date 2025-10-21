@@ -20,4 +20,4 @@ int myFunction(int x, int y) {
   return x + y;
 }
 
-//Bro er kokt
+// Test Bro er kokt
