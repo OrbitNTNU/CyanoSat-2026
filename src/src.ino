@@ -6,6 +6,7 @@
 #include "Pressure_kode.h"
 #include "IMU_kode.h"
 #include "GPS_kode.h"
+#include "SD_kode.h"
 
 SoftwareSerial mySerial(0, 1); // RX, TX
 
