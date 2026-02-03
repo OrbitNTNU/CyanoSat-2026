@@ -89,6 +89,3 @@ void loop() {
   }
 }
 
-
-
-#funka dette?
