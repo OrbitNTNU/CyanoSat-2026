@@ -5,3 +5,4 @@
 void radioPowerUp();
 void radio_Setup();
 void radio_ExitRF();
+String radio_ReadLine();

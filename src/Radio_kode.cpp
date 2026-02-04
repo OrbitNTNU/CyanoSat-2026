@@ -23,3 +23,12 @@ void radio_Setup() {
 void radio_ExitRF() {
     mySerial.write(3); //Ctrl+C
 }
+
+String radio_ReadLine() {
+    String line = "";
+    if (mySerial.available()) {
+        line = mySerial.readStringUntil('\n'); // reads whole command as string
+        line.trim(); // removes \r and starting and ending whitespaces
+    }
+    return line;
+}
