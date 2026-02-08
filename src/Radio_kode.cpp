@@ -4,7 +4,7 @@
 
 SoftwareSerial mySerial(0, 1); // RX, TX
 
-class Radio {
+struct Radio {
     void PowerUp() {
         mySerial.begin(38400);
         }
